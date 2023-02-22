@@ -14,10 +14,10 @@ jobs:
     container:
       image: node:16
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb #mongodb+srv
-      MONGODB_CLUSTER_ADDRESS: mongdb #cluster0.ocyudke.mongodb.net
-      MONGODB_USERNAME: root #${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: example #${{ secrets.MONGODB_PASSWORD }}
+      MONGODB_CONNECTION_PROTOCOL: mongodb 
+      MONGODB_CLUSTER_ADDRESS: mongdb 
+      MONGODB_USERNAME: root 
+      MONGODB_PASSWORD: example
       PORT: 8080
     services: 
       mongodb:
